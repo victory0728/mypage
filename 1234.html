@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  
+    <title>你真的了解我吗?</title>
+  
+   <link rel="stylesheet" href="astyle.css">
+   <script src="amain.js"></script>
+ </head>
+
+ <body>
+   <!-- 音乐 -->
+  <div>
+    <!-- css -->
+    <style>
+.btn2{ /** 图案 **/
+   font-size: 24px;
+   -webkit-animation: turn 2s linear infinite;
+   border-radius: 48%;
+   border:0px;
+   background-image: linear-gradient(to right bottom,#FFB603,#7B5800);
+   -webkit-background-clip: text;
+   color: #00000000;
+   border: 0px;
+}
+
+@-webkit-keyframes turn { /** 转圈圈 **/
+   0%  {-webkit-transform: rotate(0deg);}
+   100%{-webkit-transform: rotate(360deg);}
+}
+
+.music{ /** 音乐本乐 **/
+   position: absolute;
+   right: 10px;
+   top: 10px;
+}
+
+#ba{
+   display: block;
+}
+/** 完 **/
+
+/** 播放内容 **/
+
+#muzik{ /** 隐藏起来 **/
+   display: block;
+   background-color: #0181AB;
+   border-radius: 20px;
+   box-shadow: 6px 6px 3px #FAA5BA;
+   padding: 5px 10px;
+   
+}
+
+li{ /** list的type **/
+   list-style-type: decimal;
+   padding-top: 5px;
+}
+
+.music3{ /** 关闭按钮 **/
+   font-size: 18px;
+   background-color: #017154;
+   color: #FFFFFF;
+   border:0px;
+   border-radius: 5px;
+}
+
+.center{ /** 按钮居中 **/
+   text-align: center;
+}
+
+#con{
+   display: none;
+}
+    </style>
+    
+    <script>
+function goo() {
+  document.getElementById('muzik').style.display = 'block';
+}
+
+function noo() {
+  document.getElementById('ba').style.display = 'none'
+}
+
+function wer(){
+   document.getElementById('con').style.display='block';
+}
+
+function close2(){
+   document.getElementById('muzik').style.display='none';
+}
+
+    </script>
+    <!-- 乐符按钮 -->
+    <div class="music" id="ba">
+      <p><button class="btn2" onclick="goo()"><i class="fa fa-music"></i></button></p>
+    </div>
+    
+   <!-- 音乐 -->
+    <div id="muzik">
+      
+      <li>Born a stranger <br/>
+      <iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/87DF_Ss_DNw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+      
+      <li>宫崎骏音乐(这个稍微比较大声)<br />
+      <iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/5Fc5FcHEyU0?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+      
+      <li>所念皆星河<br />
+      <iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/LU_maqkhstw?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+      
+<br/>
+   <!-- 关闭&隐藏按钮 -->
+     <div class="center">
+       <button class="music3" onclick="close2();wer()">关闭</button>
+       <button class="music3" onclick="noo()">隐藏乐符</button>
+     </div>
+   </div>
+  </div>
+   <!-- 完 -->
+   
+  
+   <!-- 内容 -->
+  <div id="con">
+    
+   <!-- 上面简介部分 -->
+  <div class="picture">
+     <h1 class="title"> 你真的了解我咩? </h1>
+<br/>
+     <img class="baby" src="Img/" />
+     <p>用户名:</p>
+     <p class="name">用毒蛇的毒去<sup>毒</sup><sub>毒</sub>蛇<sup>&#169</sup></p>
+     <a href="../2.问题页面/a问题1.html"><button class="button">点我可开始</button></button></a>
+   </div>
+   <!-- 完 -->  
+
+<br /> 
+<br />
+
+   <!-- 说明 -->
+     <div>
+       <h3>说明:</h3>
+        <ul class="image">
+         <li>这个就是我做的网页啦~</li>
+         <li>家里有条件的带一下耳机哈。</li>
+         <li>音乐要不要听随你。</li>
+         <li>到下一页就会要你选一下bgm，可能会很烦，但没办法，我就烂，我弄不出可以自动播音乐🤪🤪</li>
+         <li>建议是找个安静的地方来玩，听下bgm，毕竟里面的问题太值得思考了。</li>
+         <li>你回答的东西，我是看不到的啦，所以认真回答咯，毕竟要收你到你们的回答，是后端在处理的，我还没有学到，也是三个字，我就烂🤪🤪</li>
+         <li>至于如果你想给我看你的回答的话，你就截图过来咯，下面都有很方便的email功能，按一下就上传一下你的照片，就可以料。</li>
+         <li>还有，记得去看看特效、动画，我弄料很久。</li>
+         <li>里面肯定没有坑你的东西，放心游玩。</li>
+         <b><li>字，记得去乱按，你就会发现很多东西。(最好等你回答完问题才乱按)</li>
+         <li>图案记得按。</li>
+         <li>答案想好再按选哈，只可以按一次而已。</li></b>
+         <li>这里才是<a href="../4.彩蛋网页/超级彩蛋2.html" class="zomok" onclick="fykblank()">开始按钮!!!!</a></li>
+          <li>在玩的时候可能会有bug，就当作看不到，也是三个字，我就烂🤪🤪</li>
+          <li>就将就玩一玩吧~</li>
+     </div>
+   </div>
+   <!-- 完 -->
+
+  
+</body>
+</html>
